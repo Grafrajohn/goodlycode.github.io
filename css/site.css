@@ -4,3 +4,8 @@ body.myClass h3,
 body.myClass h4,
 body.myClass h5,
 body.myClass h6 {font-size: 0.9em;}
+
+header {
+  bg-color: bg-primary;
+  color: text-white;
+}
