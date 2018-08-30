@@ -1,9 +1,9 @@
-body.myClass h1,
-body.myClass h2,
-body.myClass h3,
-body.myClass h4,
-body.myClass h5,
-body.myClass h6 {font-size: 0.9em;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {font-size: 0.9em;}
 
 header {
   bg-color: bg-primary;
