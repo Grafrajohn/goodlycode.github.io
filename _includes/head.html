@@ -1,6 +1,5 @@
     <head>
         <meta charset="utf-8"/>
-
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124895107-1"></script>
         <script>
@@ -9,10 +8,9 @@
         gtag('js', new Date());
         gtag('config', 'UA-124895107-1');
         </script>
-
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
-        <meta name="description" content="{% if page.description %} {{ page.description }} | {% else %} {{ site.name }}{{site.description}} {% endif %}"/>
+        <title>{% if page.title %} {{ page.title }} | {% endif %}{{ site.name }}</title>
+        <meta name="description" content="{% if page.description %} {{ page.description }} | {% else %} {{ site.name }} {{site.description}} {% endif %}"/>
         <meta name="author" content="{{site.author}}"/>
         <link rel="author" href="humans.txt"/>
         <!-- Bootstrap 4 core -->
