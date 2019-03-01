@@ -1,0 +1,23 @@
+---
+layout: page
+title: Web Software Products | East Yorkshire Web Software Specialists
+description: Web Software Products | East Yorkshire Web Software Specialists
+heading: Our activities
+permalink: /blog
+---
+<div class="row">
+    <div class="col-md-8">
+        <p>I like to blog about the things I get up to in the world of the arts. So feel free to read some of the entries in my blog.</p>
+        <ul class="list-group">
+            {% for post in site.posts %}
+            <li class="list-group-item">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <!--div class="col-md-4" style="overflow-y: auto;">
+        <a class="twitter-timeline" href="https://twitter.com/GrahamArts?ref_src=">Tweets by TwitterDev</a> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div-->
+</div>
