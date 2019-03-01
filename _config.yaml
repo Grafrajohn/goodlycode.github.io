@@ -1,8 +1,8 @@
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
-name: GoodlyCode
+name: GoodlyCode | Web Sites | Wordpress Blogs | Beverley | East Yorkshire
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: Web software specialists in East Yorkshire
+description: Web software and Wordpress specialists in East Yorkshire
 
 # Your name, as you want it to appear underneath each post and in the footer
 author: Graham
@@ -21,7 +21,7 @@ category_dir: /
 baseurl: https://grafrajohn.github.io/goodlycode.github.io
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: https://www.grahamart.com
+url: https://www.goodlycode.com
 
 #### Under the Hood Stuff #####
 
