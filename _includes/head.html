@@ -14,6 +14,7 @@
         <meta name="description" content="{{site.name}} - {% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
         <meta name="author" content="{{site.author}}"/>
         <link rel="author" href="humans.txt"/>
+        <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
         <!-- Bootstrap 4 core -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
         <!-- Font Awesome -->
@@ -24,4 +25,16 @@
         <link rel="stylesheet" href="{{site.baseurl}}/css/site.css" />
         <!-- favicon -->
         <link rel='icon' href='favicon.png' type='image/x-icon'/>
+        <!-- Facebook and Twitter tags -->
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:description" content="{{ page.description }}" />
+        <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+        <meta property="og:site_name" content="{{ site.name }}" />
+        <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %} https://res.cloudinary.com/goodlycode/image/upload/v1551475008/facebook_profile_image.png {% endif %}" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:description" content="{{ page.description }}" />
+        <meta name="twitter:title" content="{{ page.title }}" />
+        <meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" />
     </head>
