@@ -1,0 +1,3 @@
+Sitemap: https://www.goodlycode.com/sitemap.xml
+User-agent: *
+Disallow:
