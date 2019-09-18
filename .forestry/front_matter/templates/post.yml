@@ -46,4 +46,4 @@ fields:
     required: false
   label: categories
 pages:
-- _posts/test-post.md
+- _posts/2019-09-17-test-post.md
