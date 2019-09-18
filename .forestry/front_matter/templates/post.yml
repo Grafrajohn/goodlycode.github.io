@@ -1,4 +1,47 @@
 ---
 label: post
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+- name: heading
+  type: text
+  config:
+    required: false
+  label: heading
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: permalink
+- name: categories
+  type: text
+  config:
+    required: false
+  label: categories
