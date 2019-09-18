@@ -41,4 +41,5 @@ fields:
     required: false
   label: categories
 pages:
+- _posts/identity-server-4-setting-up-a-simple-identity-server-to-test-jwt.md
 - _posts/2019-09-17-test-post.md
