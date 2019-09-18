@@ -45,3 +45,5 @@ fields:
   config:
     required: false
   label: categories
+pages:
+- _posts/test-post.md
