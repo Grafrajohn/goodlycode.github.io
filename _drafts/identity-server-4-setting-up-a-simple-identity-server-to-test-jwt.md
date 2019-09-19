@@ -11,4 +11,8 @@ Making a simple Identity Server 4 to test JWT issuance
 
 If you have ever looked at the Identity Server 4 project on GitHub you will be bewildered by the sheer amount of stuff you can download. There are multiple permutations and branches of the software.
 
-Here is how we got a simple Identity Server 4 working to test an application which required JWT tokens. 
+The git source is located here: [https://github.com/IdentityServer/IdentityServer4](https://github.com/IdentityServer/IdentityServer4 "https://github.com/IdentityServer/IdentityServer4")
+
+Here is how we got a very simple Identity Server 4 working to test an application which required JWT tokens. 
+
+First we downloaded Quickstart 1_ClientCredentials from the many GitHub example projects. It can currently be found here: [https://github.com/IdentityServer/IdentityServer4/tree/master/samples/Quickstarts/1_ClientCredentials](https://github.com/IdentityServer/IdentityServer4/tree/master/samples/Quickstarts/1_ClientCredentials "https://github.com/IdentityServer/IdentityServer4/tree/master/samples/Quickstarts/1_ClientCredentials")
