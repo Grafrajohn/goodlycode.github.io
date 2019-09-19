@@ -103,10 +103,10 @@ Click on the orange button 'Get New Access Token'
 
 ![](https://res.cloudinary.com/goodlycode/image/upload/v1568902831/postman_3.png)
 
-* Select Grant Type of 'Client Credentials'. 
-* Enter the URL of your identity server as 'Access Token URL'. 
+* Select Grant Type of 'Client Credentials'.
+* Enter the URL of your identity server as 'Access Token URL'.
 * Enter the client id you coded into identity server as 'Client ID'
-* Enter the secret you coded into identity server as 'Client Secret' 
+* Enter the secret you coded into identity server as 'Client Secret'
 * Enter the Allowed Scope you coded into identity server as 'Scope'
 
 Press the orange 'Request Token' button.
@@ -126,4 +126,5 @@ PostMan has now called your identity server and created a valid JWT token which 
 ![](https://res.cloudinary.com/goodlycode/image/upload/v1568902831/postman_6.png)
 
 Call your API by pressing the PostMan blue 'Send' button. Your API should return data correctly.
+
 Have fun.
