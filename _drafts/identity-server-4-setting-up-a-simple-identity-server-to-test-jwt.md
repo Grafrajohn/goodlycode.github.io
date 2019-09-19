@@ -16,3 +16,5 @@ The git source is located here: [https://github.com/IdentityServer/IdentityServe
 Here is how we got a very simple Identity Server 4 working to test an application which required JWT tokens. 
 
 First we downloaded Quickstart 1_ClientCredentials from the many GitHub example projects. It can currently be found here: [https://github.com/IdentityServer/IdentityServer4/tree/master/samples/Quickstarts/1_ClientCredentials](https://github.com/IdentityServer/IdentityServer4/tree/master/samples/Quickstarts/1_ClientCredentials "https://github.com/IdentityServer/IdentityServer4/tree/master/samples/Quickstarts/1_ClientCredentials")
+
+Open Quickstart.sln in Visual Studio and build it. it should build first time. There is no database with this simple project, so no need to worry about setting up the Identity Server dB.
