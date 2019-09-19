@@ -79,7 +79,7 @@ Second change GetClients:
     
             }
 
-Be aware that three fields above are critical to how you call your API:
+Be aware that three fields above are critical to how you call your identity server:
 
 ClientId 'client' - the name of the client which will call identity server
 
