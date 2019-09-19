@@ -121,6 +121,9 @@ You will see an orange button 'Use Token'
 
 ![](https://res.cloudinary.com/goodlycode/image/upload/v1568902831/postman_5.png)
 
-
+PostMan has now called your identity server and created a valid JWT token which it can use to call your API.
 
 ![](https://res.cloudinary.com/goodlycode/image/upload/v1568902831/postman_6.png)
+
+Call your API by pressing the PostMan blue 'Send' button. Your API should return data correctly.
+Have fun.
