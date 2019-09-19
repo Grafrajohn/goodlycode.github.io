@@ -88,3 +88,37 @@ ClientSecrets 'secret' - the secret your API will use which identifies that it i
 AllowedScopes - the API resource you set up in the previous method.
 
 These three values have to feature in the calling application.
+
+To test that everything is working we can use the venerable PostMan app as follows:
+
+![](https://res.cloudinary.com/goodlycode/image/upload/v1568902831/postman_1.png)
+
+Set up your API get and click on the Authorization tab as above.
+
+You should see this dialogue:
+
+![](https://res.cloudinary.com/goodlycode/image/upload/v1568902831/postman_2.png)
+
+Click on the orange button 'Get New Access Token'
+
+![](https://res.cloudinary.com/goodlycode/image/upload/v1568902831/postman_3.png)
+
+* Select Grant Type of 'Client Credentials'. 
+* Enter the URL of your identity server as 'Access Token URL'. 
+* Enter the client id you coded into identity server as 'Client ID'
+* Enter the secret you coded into identity server as 'Client Secret' 
+* Enter the Allowed Scope you coded into identity server as 'Scope'
+
+Press the orange 'Request Token' button.
+
+Postman should then issue a token!
+
+![](https://res.cloudinary.com/goodlycode/image/upload/v1568902831/postman_4.png)
+
+Scroll to the bottom of the dialogue where the Access Token is displayed.
+
+You will see an orange button 'Use Token'
+
+![](https://res.cloudinary.com/goodlycode/image/upload/v1568902831/postman_5.png)
+
+![](https://res.cloudinary.com/goodlycode/image/upload/v1568902831/postman_6.png)
