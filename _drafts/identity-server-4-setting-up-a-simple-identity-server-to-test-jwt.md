@@ -87,4 +87,4 @@ ClientSecrets 'secret' - the secret your API will use which identifies that it i
 
 AllowedScopes - the API resource you set up in the previous method.
 
-These three values have to feature in the calling API.
+These three values have to feature in the calling application.
