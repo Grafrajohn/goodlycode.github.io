@@ -19,7 +19,9 @@ First we downloaded Quickstart 1_ClientCredentials from the many GitHub example 
 
 Open Quickstart.sln in Visual Studio and build it. it should build first time. There is no database with this simple project, so no need to worry about setting up the Identity Server dB.
 
-For our API we only needed to change the Config.cs file as follows:
+For our API we only needed to change the Config.cs file as follows. 
+
+First change method GetApis:
 
     public static IEnumerable<ApiResource> GetApis()
 
@@ -36,3 +38,43 @@ For our API we only needed to change the Config.cs file as follows:
             }
 
 Where it says MyAPI above change to the name of the API for which you wish to issue JWT tokens.
+
+Second change GetClients:
+
+    public static IEnumerable<Client> GetClients()
+
+            {
+
+                return new List<Client>
+
+                {
+
+                    new Client
+
+                    {
+
+                        ClientId = "client",
+
+                        // no interactive user, use the clientid/secret for authentication
+
+                        AllowedGrantTypes = GrantTypes.ClientCredentials,
+
+                        // secret for authentication
+
+                        ClientSecrets =
+
+                        {
+
+                            new Secret("secret".Sha256())
+
+                        },
+
+                        // scopes that client has access to
+
+                        AllowedScopes = { "MyAPI" }
+
+                    }
+
+                };
+
+            }
