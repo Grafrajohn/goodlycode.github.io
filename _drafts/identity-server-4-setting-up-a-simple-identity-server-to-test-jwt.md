@@ -29,8 +29,10 @@ For our API we only needed to change the Config.cs file as follows:
 
                 {
 
-                    new ApiResource("AddressAPI", "Address API")
+                    new ApiResource("MyAPI", "My API")
 
                 };
 
             }
+
+Where it says MyAPI above change to the name of the API for which you wish to issue JWT tokens.
