@@ -7,7 +7,7 @@ heading: How to set up a simple identity server 4 for JWT
 categories: security
 
 ---
-Making a simple Identity Server 4 to test JWT issuance
+# Making a simple Identity Server 4 to test JWT issuance
 
 If you have ever looked at the Identity Server 4 project on GitHub you will be bewildered by the sheer amount of stuff you can download. There are multiple permutations and branches of the software.
 
@@ -89,7 +89,7 @@ AllowedScopes - the API resource you set up in the previous method.
 
 These three values have to feature in the calling application.
 
-To test that everything is working we can use the venerable PostMan app as follows:
+To test that everything is working we can use the venerable PostMan app as follows. Make sure that your identity server is actually running.
 
 ![](https://res.cloudinary.com/goodlycode/image/upload/v1568902831/postman_1.png)
 
